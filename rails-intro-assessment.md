@@ -3,6 +3,7 @@
 Try your best to answer each question on your own before looking up the answer online. Once you're done writing your first answer, you can google the question and write the best answer you find.
 
 ### 1. What are some advantages of using Ruby on Rails?
+Test
 
 ### 2. How does Ruby on Rails use the Model View Controller (MVC) framework?
 
