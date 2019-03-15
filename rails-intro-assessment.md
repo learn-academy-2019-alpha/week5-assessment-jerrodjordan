@@ -3,9 +3,11 @@
 Try your best to answer each question on your own before looking up the answer online. Once you're done writing your first answer, you can google the question and write the best answer you find.
 
 ### 1. What are some advantages of using Ruby on Rails?
-Test
+ Ruby on rails has it advantages because it is full stack, which allows you to develop both the front-end and backend all in Ruby on Rails. It also used MVC which allows all this to work together.
 
 ### 2. How does Ruby on Rails use the Model View Controller (MVC) framework?
+
+Model housed code that work the application data. Views are the HTML files with embedded ruby that the users interact with. The controller connects the models and views.
 
 ### 3. Using the information given, complete the steps for creating a new view in a rails app by filling in the blanks:
 
@@ -17,18 +19,18 @@ Test
   ```
   file: config/routes
 
-  2. Create the ____________
+  2. Create the controller
 
   code:
   ```
-  class ____________ < ApplicationController
+  class statics < ApplicationController
 
   def about
-    _______________________
+    render "about.html.erb"
   end
   ```
 
-  file: _____________________
+  file: statics_controller.rb
 
   3. Create the View
 
@@ -38,7 +40,7 @@ Test
   <div>This is the About page!</div>
   ```
 
-  file: _____________________
+  file: about.html.erb
 
 
 ### 4. Look at these sets of Rails routes, they are an example of which principle/term that we touched on briefly in class? Find the term, and explain why it is important.
