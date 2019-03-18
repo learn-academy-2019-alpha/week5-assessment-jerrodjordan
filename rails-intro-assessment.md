@@ -1,3 +1,5 @@
+<!-- https://github.com/learn-academy-2019-alpha/week5-assessment-jerrodjordan/pull/new/answers -->
+
 # Week 5 Assessment
 
 Try your best to answer each question on your own before looking up the answer online. Once you're done writing your first answer, you can google the question and write the best answer you find.
@@ -55,27 +57,52 @@ Model housed code that work the application data. Views are the HTML files with 
 /users/1      method="DELETE"  # :controller => 'users', :action => 'destroy'
 ```
 
+
 ### 5. What is the public folder used for in Rails?
+The folder is used to display (404, 500, 422).html files
 
 ### 6. Write a rails route for a controller called "main" and a page called "game" that takes in a parameter called "guess"
 
+get '/game' => 'main#guess'
+
 ### 7. What are cookies for? How do they work? What is the difference between a session and a cookie?
+
+Cookies are small files that store small amounts of user data
 
 ### 8. In an html form, what does the "action" attribute tell you about the form?  How do you designate the HTTP verb for the form?
 
+The action attribute specifies where to send the form-data when a form is submitted.
+
 ### 9. Why would you use an instance variable in a rails controller?
+You would use a instance of a variable in a rails controller is your methods had logic where you were setting variables
+
 
 ### 10. Name two rails generator commands and what files they create:
 
+rails generate controller Users index register // This command will create a controller called Users with two methods in it, index and register, among other things.
+
+rails generate controller Games play //
+
+
 ### 11. There is a table called "squirrels". What SQL code would we write to print everything in the table?
+
+SELECT * FROM squirrels
 
 ### 12. What is a foreign key? Where would you use it in a has many/belongs to relationship?
 [Your Answer]
+Not sure what a foreign key is
 
 [Googled Answer]
+In the context of relational databases, a foreign key is a field in one table that uniquely identifies a row of another table or the same table. In simpler words, the foreign key is defined in a second table, but it refers to the primary key or a unique key in the first table.
 
 ### 13. Rails has a great community and lots of free tutorials to help you learn. Here is a list of some tutorials to choose from, choose one, do it, and then report back here at least one thing you learned. You can also use a different resource if you find one that you like better.
 
 - https://www.tutorialspoint.com/ruby-on-rails/index.htm
 - http://railsforzombies.org
 - http://guides.rubyonrails.org/getting_started.html
+
+Rails Active Record is the Object/Relational Mapping (ORM) layer supplied with Rails.
+
+tables map to classes,
+rows map to objects and
+columns map to object attributes.
