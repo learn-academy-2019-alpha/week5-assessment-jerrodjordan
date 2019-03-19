@@ -43,7 +43,7 @@ def assign_grade(num)
 end
 
 p assign_grade(92)
- 
+
 # The Pluralizer
 # Write a method named pluralizer that:
 #

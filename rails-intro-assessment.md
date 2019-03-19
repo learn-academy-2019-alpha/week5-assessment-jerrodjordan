@@ -1,7 +1,7 @@
 <!-- https://github.com/learn-academy-2019-alpha/week5-assessment-jerrodjordan/pull/new/answers -->
 
 # Week 5 Assessment
- 
+
 Try your best to answer each question on your own before looking up the answer online. Once you're done writing your first answer, you can google the question and write the best answer you find.
 
 ### 1. What are some advantages of using Ruby on Rails?
