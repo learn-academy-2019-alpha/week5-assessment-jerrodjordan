@@ -1,7 +1,7 @@
 <!-- https://github.com/learn-academy-2019-alpha/week5-assessment-jerrodjordan/pull/new/answers -->
 
 # Week 5 Assessment
- 
+
 Try your best to answer each question on your own before looking up the answer online. Once you're done writing your first answer, you can google the question and write the best answer you find.
 
 ### 1. What are some advantages of using Ruby on Rails?
@@ -81,7 +81,7 @@ You would use a instance of a variable in a rails controller is your methods had
 
 rails generate controller Users index register // This command will create a controller called Users with two methods in it, index and register, among other things.
 
-rails generate controller Games play //
+rails generate controller Games play  exd
 
 
 ### 11. There is a table called "squirrels". What SQL code would we write to print everything in the table?
